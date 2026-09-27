@@ -1,0 +1,275 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f5f1e8">
+  <meta name="description" content="Notas, seminarios, talleres y grupos de estudio de matemática.">
+  <title>Seminarios y Talleres de Matemática</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,500;8..60,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css">
+
+  <script>
+    window.MathJax = {
+      tex: { inlineMath: [['$', '$'], ['\\(', '\\)']] },
+      svg: { fontCache: 'global' }
+    };
+  </script>
+  <script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"></script>
+  <script defer src="assets/js/app.js"></script>
+</head>
+
+<body>
+  <header class="site-header" id="inicio">
+    <div class="container nav-wrap">
+      <a class="brand" href="#inicio" aria-label="Inicio">
+        <span class="brand-symbol">𝕄</span>
+        <span class="brand-copy">
+          <strong>
+            <span data-lang="es">Seminarios y Talleres</span>
+            <span data-lang="en">Seminars & Workshops</span>
+          </strong>
+          <small>Matemática · Perú</small>
+        </span>
+      </a>
+
+      <nav class="main-nav" aria-label="Navegación principal">
+        <a href="#notas"><span data-lang="es">Notas</span><span data-lang="en">Notes</span></a>
+        <a href="#talleres"><span data-lang="es">Talleres</span><span data-lang="en">Workshops</span></a>
+        <a href="#seminarios"><span data-lang="es">Seminarios</span><span data-lang="en">Seminars</span></a>
+        <a href="#acerca"><span data-lang="es">Acerca de</span><span data-lang="en">About</span></a>
+        <button class="language-switch" id="languageSwitch" type="button">ES / EN</button>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="math-orbit orbit-one">∫</div>
+      <div class="math-orbit orbit-two">π</div>
+      <div class="math-orbit orbit-three">∑</div>
+
+      <div class="container hero-grid">
+        <div>
+          <p class="eyebrow">
+            <span data-lang="es">Iniciativa académica abierta</span>
+            <span data-lang="en">Open academic initiative</span>
+          </p>
+
+          <h1>
+            <span data-lang="es">Matemática para estudiar en común.</span>
+            <span data-lang="en">Mathematics for studying together.</span>
+          </h1>
+
+          <p class="hero-lead">
+            <span data-lang="es">
+              Un espacio para reunir notas, seminarios, talleres y grupos de estudio,
+              con materiales que puedan crecer y permanecer disponibles para otros estudiantes.
+            </span>
+            <span data-lang="en">
+              A space for notes, seminars, workshops, and study groups,
+              with materials that can grow and remain available to other students.
+            </span>
+          </p>
+
+          <div class="hero-actions">
+            <a class="button button-primary" href="#notas">
+              <span data-lang="es">Explorar materiales</span>
+              <span data-lang="en">Explore materials</span>
+            </a>
+            <a class="button button-secondary" href="#seminarios">
+              <span data-lang="es">Ver seminarios</span>
+              <span data-lang="en">View seminars</span>
+            </a>
+          </div>
+        </div>
+
+        <aside class="formula-card">
+          <span class="formula-label">MATHEMATICS / COMMUNITY</span>
+          <div class="formula">
+            \[
+            \text{ideas}+\text{discusión}+\text{constancia}
+            =\text{matemática compartida}.
+            \]
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section" id="notas">
+      <div class="container">
+        <header class="section-heading">
+          <p class="eyebrow"><span data-lang="es">Biblioteca</span><span data-lang="en">Library</span></p>
+          <h2><span data-lang="es">Notas</span><span data-lang="en">Notes</span></h2>
+          <p>
+            <span data-lang="es">Apuntes, exposiciones y material de estudio organizados por áreas.</span>
+            <span data-lang="en">Notes, presentations, and study material organized by subject.</span>
+          </p>
+        </header>
+
+        <div class="card-grid">
+          <article class="topic-card accent-blue">
+            <span class="card-index">01 / NOTES</span>
+            <h3><span data-lang="es">Álgebra y K-teoría</span><span data-lang="en">Algebra & K-theory</span></h3>
+            <p>
+              <span data-lang="es">Módulos proyectivos, grupo de Grothendieck, categorías exactas y esquemas.</span>
+              <span data-lang="en">Projective modules, Grothendieck groups, exact categories, and schemes.</span>
+            </p>
+            <span class="status"><span data-lang="es">En preparación</span><span data-lang="en">In progress</span></span>
+          </article>
+
+          <article class="topic-card accent-teal">
+            <span class="card-index">02 / NOTES</span>
+            <h3><span data-lang="es">Geometría algebraica</span><span data-lang="en">Algebraic geometry</span></h3>
+            <p>
+              <span data-lang="es">Variedades, haces, espectros, morfismos y geometría de esquemas.</span>
+              <span data-lang="en">Varieties, sheaves, spectra, morphisms, and scheme geometry.</span>
+            </p>
+            <span class="status"><span data-lang="es">En preparación</span><span data-lang="en">In progress</span></span>
+          </article>
+
+          <article class="topic-card accent-gold">
+            <span class="card-index">03 / NOTES</span>
+            <h3><span data-lang="es">Topología y categorías</span><span data-lang="en">Topology & categories</span></h3>
+            <p>
+              <span data-lang="es">Cubrimientos, grupo fundamental, homología y métodos categóricos.</span>
+              <span data-lang="en">Coverings, fundamental groups, homology, and categorical methods.</span>
+            </p>
+            <span class="status"><span data-lang="es">Próximamente</span><span data-lang="en">Coming soon</span></span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-muted" id="talleres">
+      <div class="container split-layout">
+        <div>
+          <header class="section-heading">
+            <p class="eyebrow"><span data-lang="es">Aprendizaje colectivo</span><span data-lang="en">Collective learning</span></p>
+            <h2>
+              <span data-lang="es">Talleres y grupos de estudio</span>
+              <span data-lang="en">Workshops and study groups</span>
+            </h2>
+            <p>
+              <span data-lang="es">Cada actividad puede tener programa, bibliografía, hojas de problemas, diapositivas y grabaciones.</span>
+              <span data-lang="en">Each activity can have a syllabus, bibliography, problem sheets, slides, and recordings.</span>
+            </p>
+          </header>
+
+          <div class="feature-list">
+            <div class="feature">
+              <span>01</span>
+              <div>
+                <h3><span data-lang="es">Programa</span><span data-lang="en">Syllabus</span></h3>
+                <p><span data-lang="es">Temas, sesiones y bibliografía.</span><span data-lang="en">Topics, sessions, and references.</span></p>
+              </div>
+            </div>
+            <div class="feature">
+              <span>02</span>
+              <div>
+                <h3><span data-lang="es">Material</span><span data-lang="en">Material</span></h3>
+                <p><span data-lang="es">PDF, código, ejercicios y diapositivas.</span><span data-lang="en">PDFs, code, exercises, and slides.</span></p>
+              </div>
+            </div>
+            <div class="feature">
+              <span>03</span>
+              <div>
+                <h3><span data-lang="es">Archivo</span><span data-lang="en">Archive</span></h3>
+                <p><span data-lang="es">Historial navegable de actividades pasadas.</span><span data-lang="en">A browsable history of past activities.</span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <aside class="editorial-panel">
+          <span class="panel-number">∞</span>
+          <h3><span data-lang="es">Una estructura hecha para crecer.</span><span data-lang="en">A structure built to grow.</span></h3>
+          <p>
+            <span data-lang="es">La portada funciona como índice. Luego podemos añadir una página independiente para cada taller, curso corto o grupo de lectura.</span>
+            <span data-lang="en">The homepage works as an index. Later we can add an independent page for each workshop, short course, or reading group.</span>
+          </p>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section seminars" id="seminarios">
+      <div class="container">
+        <header class="section-heading">
+          <p class="eyebrow"><span data-lang="es">Archivo de charlas</span><span data-lang="en">Talk archive</span></p>
+          <h2><span data-lang="es">Seminarios</span><span data-lang="en">Seminars</span></h2>
+          <p>
+            <span data-lang="es">Título, expositor, resumen, referencias y video cuando exista.</span>
+            <span data-lang="en">Title, speaker, abstract, references, and video whenever available.</span>
+          </p>
+        </header>
+
+        <div class="seminar-list">
+          <article class="seminar-row">
+            <span class="seminar-code">ALG</span>
+            <div>
+              <h3><span data-lang="es">Seminario de Álgebra</span><span data-lang="en">Algebra Seminar</span></h3>
+              <p><span data-lang="es">Álgebra conmutativa, categorías, representaciones y K-teoría.</span><span data-lang="en">Commutative algebra, categories, representations, and K-theory.</span></p>
+            </div>
+            <span class="arrow">↗</span>
+          </article>
+
+          <article class="seminar-row">
+            <span class="seminar-code">GEO</span>
+            <div>
+              <h3><span data-lang="es">Seminario de Geometría</span><span data-lang="en">Geometry Seminar</span></h3>
+              <p><span data-lang="es">Geometría algebraica, superficies de Riemann y topología.</span><span data-lang="en">Algebraic geometry, Riemann surfaces, and topology.</span></p>
+            </div>
+            <span class="arrow">↗</span>
+          </article>
+
+          <article class="seminar-row">
+            <span class="seminar-code">ESP</span>
+            <div>
+              <h3><span data-lang="es">Temas especiales</span><span data-lang="en">Special Topics</span></h3>
+              <p><span data-lang="es">Criptografía, teoría de códigos y encuentros interdisciplinarios.</span><span data-lang="en">Cryptography, coding theory, and interdisciplinary meetings.</span></p>
+            </div>
+            <span class="arrow">↗</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="acerca">
+      <div class="container about-grid">
+        <div>
+          <p class="eyebrow"><span data-lang="es">Proyecto</span><span data-lang="en">Project</span></p>
+          <h2>
+            <span data-lang="es">Una casa digital para aprender matemática.</span>
+            <span data-lang="en">A digital home for learning mathematics.</span>
+          </h2>
+        </div>
+
+        <div class="about-copy">
+          <p>
+            <span data-lang="es">El objetivo es preservar el trabajo de los grupos de estudio y hacerlo fácil de consultar para estudiantes dentro y fuera del Perú.</span>
+            <span data-lang="en">The goal is to preserve the work of study groups and make it easy to consult for students in and beyond Peru.</span>
+          </p>
+
+          <div class="notice">
+            <strong><span data-lang="es">Nota institucional</span><span data-lang="en">Institutional note</span></strong>
+            <p>
+              <span data-lang="es">Este sitio está pensado como una iniciativa académica independiente y abierta.</span>
+              <span data-lang="en">This site is designed as an independent and open academic initiative.</span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-wrap">
+      <span>© 2026 Seminarios y Talleres de Matemática</span>
+      <a href="#inicio"><span data-lang="es">Volver arriba ↑</span><span data-lang="en">Back to top ↑</span></a>
+    </div>
+  </footer>
+</body>
+</html>
