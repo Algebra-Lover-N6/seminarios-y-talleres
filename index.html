@@ -37,9 +37,9 @@
       </a>
 
       <nav class="main-nav" aria-label="Navegación principal">
-        <a href="#notas"><span data-lang="es">Notas</span><span data-lang="en">Notes</span></a>
-        <a href="#talleres"><span data-lang="es">Talleres</span><span data-lang="en">Workshops</span></a>
-        <a href="#seminarios"><span data-lang="es">Seminarios</span><span data-lang="en">Seminars</span></a>
+        <a href="notas/"><span data-lang="es">Notas</span><span data-lang="en">Notes</span></a>
+        <a href="talleres/"><span data-lang="es">Talleres</span><span data-lang="en">Workshops</span></a>
+        <a href="seminarios/"><span data-lang="es">Seminarios</span><span data-lang="en">Seminars</span></a>
         <a href="#acerca"><span data-lang="es">Acerca de</span><span data-lang="en">About</span></a>
         <button class="language-switch" id="languageSwitch" type="button">ES / EN</button>
       </nav>
@@ -76,11 +76,11 @@
           </p>
 
           <div class="hero-actions">
-            <a class="button button-primary" href="#notas">
+            <a class="button button-primary" href="notas/">
               <span data-lang="es">Explorar materiales</span>
               <span data-lang="en">Explore materials</span>
             </a>
-            <a class="button button-secondary" href="#seminarios">
+            <a class="button button-secondary" href="seminarios/">
               <span data-lang="es">Ver seminarios</span>
               <span data-lang="en">View seminars</span>
             </a>
@@ -111,7 +111,7 @@
         </header>
 
         <div class="card-grid">
-          <article class="topic-card accent-blue">
+          <a class="topic-card topic-card-link accent-blue" href="notas/k-teoria/">
             <span class="card-index">01 / NOTES</span>
             <h3><span data-lang="es">Álgebra y K-teoría</span><span data-lang="en">Algebra & K-theory</span></h3>
             <p>
@@ -119,9 +119,9 @@
               <span data-lang="en">Projective modules, Grothendieck groups, exact categories, and schemes.</span>
             </p>
             <span class="status"><span data-lang="es">En preparación</span><span data-lang="en">In progress</span></span>
-          </article>
+          </a>
 
-          <article class="topic-card accent-teal">
+          <a class="topic-card topic-card-link accent-teal" href="notas/geometria-algebraica/">
             <span class="card-index">02 / NOTES</span>
             <h3><span data-lang="es">Geometría algebraica</span><span data-lang="en">Algebraic geometry</span></h3>
             <p>
@@ -129,9 +129,9 @@
               <span data-lang="en">Varieties, sheaves, spectra, morphisms, and scheme geometry.</span>
             </p>
             <span class="status"><span data-lang="es">En preparación</span><span data-lang="en">In progress</span></span>
-          </article>
+          </a>
 
-          <article class="topic-card accent-gold">
+          <a class="topic-card topic-card-link accent-gold" href="notas/topologia-categorias/">
             <span class="card-index">03 / NOTES</span>
             <h3><span data-lang="es">Topología y categorías</span><span data-lang="en">Topology & categories</span></h3>
             <p>
@@ -139,8 +139,9 @@
               <span data-lang="en">Coverings, fundamental groups, homology, and categorical methods.</span>
             </p>
             <span class="status"><span data-lang="es">Próximamente</span><span data-lang="en">Coming soon</span></span>
-          </article>
+          </a>
         </div>
+        <p class="section-more"><a href="notas/"><span data-lang="es">Ver todas las notas →</span><span data-lang="en">View all notes →</span></a></p>
       </div>
     </section>
 
@@ -193,6 +194,7 @@
           </p>
         </aside>
       </div>
+      <div class="container section-more"><a href="talleres/"><span data-lang="es">Explorar talleres y grupos →</span><span data-lang="en">Explore workshops and groups →</span></a></div>
     </section>
 
     <section class="section seminars" id="seminarios">
@@ -207,33 +209,34 @@
         </header>
 
         <div class="seminar-list">
-          <article class="seminar-row">
+          <a class="seminar-row seminar-row-link" href="seminarios/algebra/">
             <span class="seminar-code">ALG</span>
             <div>
               <h3><span data-lang="es">Seminario de Álgebra</span><span data-lang="en">Algebra Seminar</span></h3>
               <p><span data-lang="es">Álgebra conmutativa, categorías, representaciones y K-teoría.</span><span data-lang="en">Commutative algebra, categories, representations, and K-theory.</span></p>
             </div>
             <span class="arrow">↗</span>
-          </article>
+          </a>
 
-          <article class="seminar-row">
+          <a class="seminar-row seminar-row-link" href="seminarios/geometria/">
             <span class="seminar-code">GEO</span>
             <div>
               <h3><span data-lang="es">Seminario de Geometría</span><span data-lang="en">Geometry Seminar</span></h3>
               <p><span data-lang="es">Geometría algebraica, superficies de Riemann y topología.</span><span data-lang="en">Algebraic geometry, Riemann surfaces, and topology.</span></p>
             </div>
             <span class="arrow">↗</span>
-          </article>
+          </a>
 
-          <article class="seminar-row">
+          <a class="seminar-row seminar-row-link" href="seminarios/temas-especiales/">
             <span class="seminar-code">ESP</span>
             <div>
               <h3><span data-lang="es">Temas especiales</span><span data-lang="en">Special Topics</span></h3>
               <p><span data-lang="es">Criptografía, teoría de códigos y encuentros interdisciplinarios.</span><span data-lang="en">Cryptography, coding theory, and interdisciplinary meetings.</span></p>
             </div>
             <span class="arrow">↗</span>
-          </article>
+          </a>
         </div>
+        <p class="section-more"><a href="seminarios/"><span data-lang="es">Ver archivo de seminarios →</span><span data-lang="en">View seminar archive →</span></a></p>
       </div>
     </section>
 
